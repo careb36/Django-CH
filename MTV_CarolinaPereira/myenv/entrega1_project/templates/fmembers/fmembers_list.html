@@ -1,0 +1,10 @@
+
+{% for fmember in fmembers %}
+
+    <h1>Los nombres del familiar es {{fmember.names}}</h1>
+    <h1>El apellido del familiar es {{fmember.last_name}}</h1>
+    <h1>La edad del familiar es {{fmember.age}}</h1>
+    <h1>El parentezco del familiar es {{fmember.relationship}}</h1>
+    <h3>La fecha de alta en el sistema es {{fmember.sys_creation_date}}</h3>
+
+{% endfor %}
