@@ -15,4 +15,4 @@ def list_fmembers(request):
     context = {
         'fmember': fmember
     }
-    return render(request, "list_fmembers.html", context=context)
+    return render(request, "fmembers_list.html", context=context)
